@@ -1,0 +1,111 @@
+body {
+    font-size: 12px;
+    font-family: "Helvetica";
+
+}
+.contact-list-header-background {
+    background-color: #353535;
+    color: #ffffff;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+
+.contact-list-footer-background {
+    background-color: #353535;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.contact-element-selected {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.contact-element {
+    background-color: #353535;
+    color: #ffffff;
+
+}
+
+.contact-list {
+    background-color: #353535;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.contact-table-wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.phone {
+    display: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #212121;
+}
+.table-striped {
+    background-color: darkgray;
+}
+
+.contact-card {
+    font-size: 12px;
+    font-family: "Helvetica";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 784px;
+    top: 222.496px;
+    z-index: 236;
+}
+
+.bad-contact{
+    width:14px;
+    height:14px;
+    border-radius:10px;
+    background-color:red;
+}
+
+.mediocre-contact {
+    width:14px;
+    height:14px;
+    border-radius:10px;
+    background-color:yellow;
+}
+
+.good-contact {
+    width:14px;
+    height:14px;
+    border-radius:10px;
+    background-color: rgb(0, 255, 30);
+
+}
+
+.contact-name {
+    padding-left: 18px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: darkgray;
+}
+
+.extended-details {
+    display: none;
+    font-size: 12px;
+    font-family: "Helvetica";
+    color: white;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 240px;
+    z-index: 236;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.contact-footer-row {
+    border-radius: 14px;
+}
